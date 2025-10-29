@@ -1,3 +1,9 @@
+Version 1.8.4 (2025-10-29)
+--------------------------
+- Allow placing `@Builder` on abstract methods
+- Fix a bug where placing `@Builder` on a static method returning a type variable would fail
+  ([Issue #50](https://github.com/skinny85/jilt/issues/50))
+
 Version 1.8.3 (2025-07-22)
 --------------------------
 - Fix a bug where Lombok generated getters didn't work with `toBuilder`
